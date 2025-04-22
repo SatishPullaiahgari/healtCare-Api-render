@@ -1,4 +1,4 @@
-import bcyptjs from 'bcrypt';
+import bcyptjs from 'bcryptjs';
 import { db } from '../../config.db/mySQLconnect';
 import { generateId } from '../utils/generateIds';
 import { generateToken } from '../utils/generate-jwt-token';
